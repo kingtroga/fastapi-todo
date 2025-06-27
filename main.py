@@ -9,7 +9,7 @@ from database import get_db, TodoDB
 app = FastAPI(
     title="Todo API",
     version="1.0.0",
-    description="A simple Todo API built with FastAPI and deployed on Vercel"
+    description="A simple Todo API built with FastAPI and deployed on Vercel. Made with love by https://www.instagram.com/atari.can/"
 )
 
 # Add CORS middleware for frontend integration
